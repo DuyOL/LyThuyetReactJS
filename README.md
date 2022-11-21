@@ -36,4 +36,3 @@ Mô Hình SSR - Server-side rendering (Muti page apps)
 
 ### Tác Giả
 ### 2022 - Bản Quyền Thuộc về Công ty của ông Nguyễn Đức Duy
-### Heelo would
