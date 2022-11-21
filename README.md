@@ -34,5 +34,6 @@ Mô Hình SSR - Server-side rendering (Muti page apps)
  - Khai Báo: State={} <= state là JavaScipt Object
  - Sử Dụng { this.state.property }
 
-### Tác Gỉa : Nguyễn Đức Duy
+### Tác Giả
+### 2022 - Bản Quyền Thuộc về Công ty của ông Nguyễn Đức Duy
 
