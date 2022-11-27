@@ -24,7 +24,7 @@
 hiển thị dữ liệu
 
 Mô Hình SSR - Server-side rendering (Muti page apps)
-### 17 State 
+### 17 State là gì?
 1. Component State
 - Là JavaScript Object
 - Miêu tả trạng thái (state) hiện tại của Component:data/UI-state
@@ -34,5 +34,13 @@ Mô Hình SSR - Server-side rendering (Muti page apps)
  - Khai Báo: State={} <= state là JavaScipt Object
  - Sử Dụng { this.state.property }
 
+### 23 Props Props là gì?
+ - React Props là các tham số truyền vào React Component. React Props được truyền 
+   vào Component thông qua các HTML attributes.
+ - React Props giống như các tham số của 1 function JavaScript hay các thuộc tính 
+   trong HTML
+ - Các giá trị của props không bị thay đổi, khi muốn thay đổi trạng thái của
+   component thì người ta chỉ thay đổi state của component chứ props thì không
+   thay đổi được.
 ### Tác Giả
 ### 2022 - Bản Quyền Thuộc về Công ty của ông Nguyễn Đức Duy
