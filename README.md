@@ -42,5 +42,6 @@ Mô Hình SSR - Server-side rendering (Muti page apps)
  - Các giá trị của props không bị thay đổi, khi muốn thay đổi trạng thái của
    component thì người ta chỉ thay đổi state của component chứ props thì không
    thay đổi được.
+ -  Sử Dụng : {this.props.value}
 ### Tác Giả
 ### 2022 - Bản Quyền Thuộc về Công ty của ông Nguyễn Đức Duy
