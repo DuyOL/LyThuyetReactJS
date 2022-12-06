@@ -22,8 +22,16 @@
 - Browser chỉ chạy 1 file duy nhất: index.html
 - React kiểm soát thứ người dùng muốn nhìn, từ điều hướng trang cho tới
 hiển thị dữ liệu
-
 Mô Hình SSR - Server-side rendering (Muti page apps)
+
+
+### 16 React Components là gì ?
+ - Các thành phần là các bit mã độc lập và có thể tái sử dụng. Chúng phục vụ cùng mục đích như
+   các hàm JavaScript, nhưng hoạt động độc lập và trả về HTML thông qua hàm render()
+ - Các thành phần có hai loại, Thành phần lớp và Thành phần chức năng .
+ - Nếu có hàm constructor() trong thành phần của bạn, thì hàm này sẽ được gọi khi thành phần
+   được bắt đầu.
+   
 ### 17 State là gì?
 1. Component State
 - Là JavaScript Object
@@ -34,6 +42,15 @@ Mô Hình SSR - Server-side rendering (Muti page apps)
  - Khai Báo: State={} <= state là JavaScipt Object
  - Sử Dụng { this.state.property }
 
+### 18 React Events là gì ?
+ - React Events là sự kiện phản ứng
+ - Adding Event (Thêm sự kiện )
+ - Các sự kiện phản ứng được viết bằng cú pháp camelCase:
+   onClick thay vì onclick.
+ - Trình xử lý sự kiện phản ứng được viết bên trong dấu ngoặc nhọn:
+ VD: onClick={shoot}  thay vì onClick="shoot()".
+     <button onClick={shoot}>Take the Shot!</button>
+     
 ### 23 Props Props là gì?
  - React Props là các tham số truyền vào React Component. React Props được truyền 
    vào Component thông qua các HTML attributes.
